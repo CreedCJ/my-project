@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediseba</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2506f6b6f7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <!-- TOP INFO BAR -->
+<div class="hidden md:flex justify-between items-center px-5 lg:px-20 py-3 shadow text-[13px]">
+
+    <!-- LEFT -->
+    <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-[#00a6ff]">
+            <i class="fa-solid fa-phone text-[#00a6ff]"></i> +1 (593) 948 6453
+        </a>
+        <a href="#" class="hover:text-[#00a6ff]">
+            <i class="fa-regular fa-clock text-[#00a6ff]"></i> Mon - Sun 7:30am - 9:30pm
+        </a>
+        <a href="#" class="hover:text-[#00a6ff]">
+            <i class="fa-regular fa-envelope text-[#00a6ff]"></i> enquery@medino.com
+        </a>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="flex items-center gap-5">
+
+        <!-- SOCIALS -->
+        <div class="flex gap-3">
+            <i class="fa-brands fa-facebook-f hover:text-[#00a6ff] cursor-pointer"></i>
+            <i class="fa-brands fa-twitter hover:text-[#00a6ff] cursor-pointer"></i>
+            <i class="fa-brands fa-linkedin-in hover:text-[#00a6ff] cursor-pointer"></i>
+            <i class="fa-brands fa-google-plus-g hover:text-[#00a6ff] cursor-pointer"></i>
+        </div>
+
+        <!-- BUTTON -->
+        <button class="bg-[#00a6ff] text-white px-4 py-1.5 rounded-full hover:bg-[#00a6ffdc] transition lg:block md:hidden hidden">
+            Make an Appointment
+        </button>
+
+    </div>
+</div>
+
+
+<!-- MAIN HEADER -->
+<header class="relative flex justify-between items-center px-3 md:px-5 lg:px-20 py-4 shadow sticky top-0 z-[9999] bg-white">
+
+    <!-- MENU (mobile) -->
+    <div class="block md:hidden lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- LOGO -->
+    <div>
+        <img src="../images/mediseba logo.png" class="max-w-[120px]" />
+    </div>
+
+    <!-- NAV -->
+    <nav class="hidden md:flex items-center gap-6 text-sm font-light text-gray-600">
+
+        <!-- HOME -->
+        <div class="relative group">
+            <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+                HOME <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+            </a>
+
+            <div class="absolute left-0 top-full w-full h-2"></div>
+
+            <div class="absolute left-0 top-full mt-1 opacity-0 invisible translate-y-2 scale-95 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:scale-100 transition-all duration-200 ease-out bg-white shadow-lg w-48 z-50">
+
+                <ul>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer"><a href="../src/mediseba.html">Home Style 1</a></li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Home Style 2</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Home Style 3</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Home Style 4</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="relative group">
+            <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+                SERVICES <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+            </a>
+
+            <div class="absolute left-0 top-full w-full h-2"></div>
+
+            <div class="absolute left-0 top-full mt-1 opacity-0 invisible translate-y-2 scale-95 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:scale-100 transition-all duration-200 ease-out bg-white shadow-lg w-48 z-50">
+
+                <ul>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer"><a href="../src/services.html">Service Style 1</a></li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Service Style 2</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Service Style 3</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Service Details</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PAGE -->
+        <div class="relative group">
+            <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+                PAGE <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+            </a>
+
+            <div class="absolute left-0 top-full w-full h-2"></div>
+
+            <div class="absolute left-0 top-full mt-1 opacity-0 invisible translate-y-2 scale-95 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:scale-100 transition-all duration-200 ease-out bg-white shadow-lg w-56 z-50">
+
+                <ul>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer"><a href="../src/pages.html">About us</a></li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Departments</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Doctors</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Appointments</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Gallery</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Pricing</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">404</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Faq</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Coming Soon</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BLOG -->
+        <div class="relative group">
+            <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+                BLOG <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+            </a>
+
+            <div class="absolute left-0 top-full w-full h-2"></div>
+
+            <div class="absolute left-0 top-full mt-1 opacity-0 invisible translate-y-2 scale-95 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:scale-100 transition-all duration-200 ease-out bg-white shadow-lg w-56 z-50">
+
+                <ul>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer"><a href="../src/blog.html">Blog Style 1</a></li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog Style 2</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog Style 3</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog With Sidebar 1</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog With Sidebar 2</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog With Sidebar 3</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Blog Details</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="relative group">
+            <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+                CONTACT <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+            </a>
+
+            <div class="absolute left-0 top-full w-full h-2"></div>
+
+            <div class="absolute left-0 top-full mt-1 opacity-0 invisible translate-y-2 scale-95 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:scale-100 transition-all duration-200 ease-out bg-white shadow-lg w-48 z-50">
+
+                <ul>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Contact Style 1</li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer"><a href="../src/contact.html">Contact Style 2</a></li>
+                    <li class="px-4 py-3 border-b border-gray-300 hover:bg-[#00a6ff] hover:text-white cursor-pointer">Contact Style 3</li>
+                </ul>
+            </div>
+        </div>
+
+
+    <!-- MEGA MENU -->
+<div class="group">
+
+    <!-- TRIGGER -->
+    <a href="#" class="hover:text-[#00a6ff] py-2 inline-block">
+        MEGA MENU 
+        <i class="fa-solid fa-angle-down transition-transform duration-200 group-hover:rotate-180"></i>
+    </a>
+
+    <!-- DROPDOWN -->
+    <div class="fixed left-0 top-30 w-full lg:px-20 md:px-5 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-[999]">
+
+        <div class="bg-white shadow-lg border-t border-gray-200">
+
+            <div class="max-w-7xl mx-auto px-3 md:px-5 lg:px-20 py-10 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <!-- QUICK LINKS -->
+                <div>
+                    <h3 class="font-semibold mb-4 text-gray-800">Quick Links</h3>
+                    <ul class="text-sm text-gray-600">
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">General Information</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Blood Bank</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Medical Research</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Emergency Service</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Ambulance Service</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Payment Method</li>
+                    </ul>
+                </div>
+
+                <!-- LATEST NEWS -->
+                <div>
+                    <h3 class="font-semibold mb-4 text-gray-800">Latest News</h3>
+
+                    <div class="space-y-4 text-sm text-gray-600">
+                        <div class="flex gap-3 border-b border-gray-300 pb-3">
+                            <div class="w-16 h-14 bg-gray-200 rounded"><img src="../images/mega-img-1.jpg" alt="mega1"></div>
+                            <div>
+                                <p class="hover:text-[#00a6ff]">Lorem ipsum dolor sit amet.</p>
+                                <span class="text-xs text-gray-500">Mar 22, 2018</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 border-b border-gray-300 pb-3">
+                            <div class="w-16 h-14 bg-gray-200 rounded"><img src="../images/mega-img-2.jpg" alt="mega2"></div>
+                            <div>
+                                <p class="hover:text-[#00a6ff]">Lorem ipsum dolor sit amet.</p>
+                                <span class="text-xs text-gray-500">Mar 22, 2018</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 border-b border-gray-300 pb-3">
+                            <div class="w-16 h-14 bg-gray-200 rounded"><img src="../images/mega-img-5.jpg" alt="mega3"></div>
+                            <div>
+                                <p class="hover:text-[#00a6ff]">Lorem ipsum dolor sit amet.</p>
+                                <span class="text-xs text-gray-500">Mar 22, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEPARTMENTS -->
+                <div>
+                    <h3 class="font-semibold mb-4 text-gray-800">Departments</h3>
+                    <ul class="text-sm text-gray-600">
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">General Medicine</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Cardiology</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Gastrology</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Neurology</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Dental Care</li>
+                        <li class="py-2 border-b border-gray-300 hover:text-[#00a6ff] cursor-pointer">Child Care</li>
+                    </ul>
+                </div>
+
+                <!-- OUR DOCTORS -->
+                <div class="flex flex-col">
+                    <h3 class="font-semibold mb-4 text-gray-800">Our Doctors</h3>
+
+                    <div class="flex-1 flex flex-col justify-between">
+                        <div class="w-full h-[180px] bg-gray-200 rounded overflow-hidden mb-3">
+                            <img src="../images/doc-david.png" class="w-full h-full object-center">
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-medium hover:text-[#00a6ff]">Dr. David White</h4>
+                            <p class="text-xs text-gray-500">Cardiologist</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </nav>
+    
+    <!-- SEARCH -->
+    <div class="hidden lg:block relative">
+        <input class="border border-gray-300 rounded-full px-3 py-1 pr-8 outline-none text-sm" placeholder="Search Here"/>
+        <i class="fa-solid fa-magnifying-glass absolute right-2 top-1/2 -translate-y-1/2 text-xs text-gray-500"></i>
+    </div>
+
+    <!-- Notification icon -->
+    <div class="block md:hidden lg:hidden">
+        <i class="fa-regular fa-bell text-gray-600 hover:text-[#00a6ff] cursor-pointer"></i>
+    </div>
+
+</header>
+
+    <section class="lg:h-screen bg-[url('../images/shedrack-salami-IX5vs6sjSFo-unsplash.jpg')] bg-cover bg-center flex items-center lg:px-20 md:px-5 px-2 h-[500px]">
+
+    <div class="mt-8">
+        <h1 class="text-[35px] max-md:text-[28px] max-sm:text-[15px] font-semibold animate__animated animate__fadeInDown">
+            <span class="text-[#00a6ff]">Mediseba</span> Provides Complete Healthcare.
+        </h1>
+
+        <p class="mt-2 max-md:hidden animate__animated animate__fadeInUp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repellat autem, quae error minima <br> provident suscipit cum quibusdam praesentium iure.
+        </p>
+
+        <p class="hidden max-md:block text-sm max-sm:text-xs mt-2 animate__animated animate__fadeInUp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repellat autem, quae error minima <br> provident suscipit cum quibusdam praesentium iure.
+        </p>
+
+        <button class="bg-[#00a6ff] text-white px-4 py-2 rounded-full mt-6 animate__animated animate__fadeInUp cursor-pointer hover:bg-[#00a6ffdc]">
+            Find A Doctor
+        </button>
+    </div>
+
+    </section>
+
+    <section class="lg:px-20 pt-16 text-center md:px-5 px-2">
+
+    <!-- HEADER -->
+    <h2 class="uppercase text-2xl font-semibold">Our Medical Services</h2>
+
+    <div class="flex justify-center mt-2">
+        <img src="../images/heartbeat.png" alt="heartbeat">
+    </div>
+
+    <div class="flex justify-center mt-3">
+        <p class="text-sm text-gray-600 leading-7">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure eum cumque <br> unde beatae rem hic repudiandae expedita.
+        </p>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="flex justify-between items-center mt-6 w-full max-md:flex-col">
+
+        <!-- LEFT -->
+        <div class="flex flex-col gap-4 max-sm:w-full">
+
+            <!-- CARD -->
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-[350px] max-sm:w-full max-sm:justify-center">
+                <div class="text-right max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Professional Doctors</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/p-doctors logo.png" class="w-14">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="text-right max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Emergency Care</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/emergency care logo.png" class="w-14">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="text-right max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Exclusive Blood Bank</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/blood bank logo.png" class="w-14">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="text-right max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">24 Hours Service</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/24 hours service logo.png" class="w-14">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MIDDLE IMAGE -->
+        <div class="w-87.5 h-155 hidden lg:block md:hidden">
+            <img src="../images/middle doctor.jpg" class="w-full h-full object-cover">
+        </div>
+
+        <!-- RIGHT -->
+        <div class="flex flex-col gap-4 max-sm:w-full">
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/medical counseling logo.png" class="w-14">
+                </div>
+                <div class="text-left max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Medical Counseling</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/rehab center logo.png" class="w-14">
+                </div>
+                <div class="text-left max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Rehabilitation Center</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-87.5 max-sm:w-full max-sm:justify-center">
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/special care logo.png" class="w-14">
+                </div>
+                <div class="text-left max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Special Care Unit</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 p-6 bg-white w-[350px] max-sm:w-full max-sm:justify-center">
+                <div class="p-5 shadow rounded-full">
+                    <img src="../images/pharmacy logo.png" class="w-14">
+                </div>
+                <div class="text-left max-sm:text-center">
+                    <h3 class="uppercase text-[16px] font-semibold">Inhouse Pharmacy</h3>
+                    <p class="text-[11px]">Lorem ipsum dolor sit amet, consectet commodi sit veniam adipisicing.</p>
+                </div>
+            </div> 
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="bg-[#0EA0C1] text-white mt-0">
+
+    <div class="lg:flex justify-between items-start px-2 lg:px-20 py-10 relative md:flex md:items-stretch md:px-5 block">
+
+        <!-- LEFT CONTENT -->
+        <div class="lg:w-[60%] md:w-[50%] w-full">
+
+            <h2 class="text-2xl font-semibold">Why You Choose Us</h2>
+
+            <img src="../images/heartbeat2.png" class="mt-2">
+
+            <p class="mt-4 text-sm leading-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim quaerat a odio sed eveniet id, eum nesciunt qui omnis, blanditiis voluptatibus dignissimos! Dolor voluptatibus, dolorum corporis dolores iure laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore magni quod voluptate, molestiae eos odio illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, delectus ad blanditiis accusamus aut distinctio eligendi.
+            </p>
+
+            <!-- LIST -->
+            <div class="flex gap-10 mt-5">
+
+                <div>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Consectetur adipisicing.</p>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Cum suscipit Sequi.</p>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Distinctio eligendi ut.</p>
+                </div>
+
+                <div>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Perspiciatis quam quod.</p>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Delectus ad blanditiis.</p>
+                    <p><i class="fa-regular fa-square-check mr-2"></i> Molestiae eos odio illo.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RIGHT CARD (SCHEDULE) -->
+        <div class="bg-white text-black p-8 rounded shadow lg:w-[35%] md:w-[45%] w-full mt-8">
+
+            <h3 class="font-semibold mb-4">
+                <i class="fa-regular fa-clock text-[#0EA0C1] mr-2"></i> Opening Hours
+            </h3>
+
+            <table class="w-full text-sm text-gray-600">
+                <tr class="border-b border-dotted">
+                    <td class="py-2">Monday - Friday</td>
+                    <td class="py-2">8:30am - 9:00pm</td>
+                </tr>
+                <tr class="border-b border-dotted">
+                    <td class="py-2">Saturday</td>
+                    <td class="py-2">10:30am - 2:30pm</td>
+                </tr>
+                <tr class="border-b border-dotted">
+                    <td class="py-2">Sunday</td>
+                    <td class="py-2">10:00am - 5:00pm</td>
+                </tr>
+            </table>
+
+            <p class="text-sm text-gray-600 mt-4 md:mt-4">
+                <i class="fa-regular fa-pen-to-square text-[#0EA0C1] mr-2"></i>
+                Need Help?
+            </p>
+
+            <p class="text-xs text-gray-600 mt-2 md:pt-3">
+                Lorem ipsum dolor sit amet, consecte Molestiae adipisic elit.
+            </p>
+
+            <button class="bg-[#0EA0C1] text-white w-full py-2 md:mt-31 rounded-full mt-5 cursor-pointer hover:bg-[#0ea0c1f1]">
+                Make an Appointment
+            </button>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="lg:px-20 pt-16 md:px-5 px-2">
+
+    <!-- HEADER -->
+    <div class="text-center">
+        <h2 class="uppercase text-2xl font-semibold">Our Departments</h2>
+        <img src="../images/heartbeat.png" class="mx-auto mt-2">
+
+        <p class="text-sm text-gray-600 mt-3 leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore <br> magni quod voluptate, molestiae eos odio illo.
+        </p>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="lg:flex md:flex justify-between mt-10 gap-6 block">
+
+        <!-- LEFT GRID -->
+        <div class="grid grid-cols-2 gap-4 mt-6">
+
+            <!-- CARD -->
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/med logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Medicine
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/cardiology logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Cardiology
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/neuro logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Neurology
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/gastro logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Gastrology
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/urology logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Urology
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/dental logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Dental Care
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/gyn logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Gynecology
+                </h3>
+            </div>
+
+            <div class="shadow p-5 text-center cursor-pointer lg:w-50 h-32.5 md:w-25 md:h-32.5 w-45">
+                <img src="../images/childcare logo.png" class="mx-auto">
+                <h3 class="uppercase lg:text-[16px] md:text-[12px] mt-2 hover:text-[#0EA0C1]">
+                    Child Care
+                </h3>
+            </div>
+
+        </div>
+
+        <!-- RIGHT CHILD CARE -->
+        <div class="lg:flex md:flex justify-between items-stretch shadow rounded-lg p-4 lg:w-190 lg:h-142.5 md:w-125 w-full block h-auto mt-5">
+
+            <!-- TEXT -->
+            <div class="lg:w-112.5 md:w-75 w-full">
+
+                <h3 class="text-xl font-semibold">Child Care</h3>
+
+                <p class="text-gray-600 text-[15px] leading-8 mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quod labore animi ratione a. Facilis voluptatibus nesciunt voluptate, totam tempore quia culpa, reprehenderit harum reiciendis optio consequuntur odit possimus perferendis!
+                    <span class="block mt-2 text-gray-500">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae facilis. Deserunt consequatur possimus ratione voluptate perspiciatis. Tempora  excepturi illo reprehenderit delectus.
+                    </span>
+                </p>
+
+                <p class="text-gray-500 mt-3 text-sm">
+                    <i class="fa-solid fa-check text-[#00a6ff]"></i> Facilis voluptatibus nesciunt <br><br>
+                    <i class="fa-solid fa-check text-[#00a6ff]"></i> Consectetur adipisicing elit <br><br>
+                    <i class="fa-solid fa-check text-[#00a6ff]"></i> Deserunt consequatur
+                </p>
+
+                <!-- MOBILE BUTTON -->
+                <button class="lg:hidden md:hidden block mt-4 border border-[#0EA0C1] text-[#0EA0C1] px-4 py-2 rounded-full hover:bg-[#0EA0C1] hover:text-white cursor-pointer">
+                    Read More
+                </button>
+
+            </div>
+
+            <!-- IMAGE -->
+            <div class="lg:w-67.5 lg:h-92.5 md:w-37.5 md:h-47.5 lg:block md:block hidden">
+                <img src="../images/sleping baby.jpg" class="w-full h-full object-cover">
+                <button class="mt-4 border border-[#0EA0C1] text-[#0EA0C1] px-4 py-2 rounded-full hover:bg-[#0EA0C1] hover:text-white cursor-pointer">
+                    Read More
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="lg:px-20 text-center md:px-5 px-2">
+
+    <!-- HEADER -->
+    <div class="pt-16">
+        <h2 class="uppercase text-2xl font-semibold">Meet Our Specialists</h2>
+        <img src="../images/heartbeat.png" class="mx-auto mt-2">
+
+        <div class="flex justify-center mt-3">
+            <p class="text-sm text-gray-600 leading-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore <br> magni quod voluptate, molestiae eos odio illo.
+            </p>
+        </div>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid lg:grid-cols-4 gap-8 mt-10 md:grid-cols-3 grid-cols-1">
+
+        <!-- DOCTOR CARD -->
+        <div class="relative">
+
+            <img src="../images/doc-alisha.png" class="w-full">
+
+            <div class="absolute bottom-px left-0 w-full bg-[#00A3C8]/70 text-white text-center py-2">
+                <h3 class="font-semibold">Dr. Alisha Perry</h3>
+                <p class="text-sm">Urologist</p>
+            </div>
+
+        </div>
+
+        <!-- HIDDEN ON MOBILE -->
+        <div class="relative hidden lg:block md:block">
+
+            <img src="../images/doc-jones.png" class="w-full">
+
+            <div class="absolute bottom-px left-0 w-full bg-[#00A3C8]/70 text-white text-center py-2">
+                <h3 class="font-semibold">Dr. Alex Jones</h3>
+                <p class="text-sm">Cardiologist</p>
+            </div>
+
+        </div>
+
+        <div class="relative hidden md:block lg:block">
+
+            <img src="../images/doc-perry.png" class="w-full">
+
+            <div class="absolute bottom-px left-0 w-full bg-[#00A3C8]/70 text-white text-center py-2">
+                <h3 class="font-semibold">Dr. Maria Perry</h3>
+                <p class="text-sm">Surgeon</p>
+            </div>
+
+        </div>
+
+        <!-- HIDDEN ON TABLET + MOBILE -->
+        <div class="relative hidden md:hidden lg:block">
+
+            <img src="../images/doc-david.png" class="w-full">
+
+            <div class="absolute bottom-px left-0 w-full bg-[#00A3C8]/70 text-white text-center py-2">
+                <h3 class="font-semibold">Dr. David Jones</h3>
+                <p class="text-sm">Dentist</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="mt-17.5 bg-[linear-gradient(rgba(16,167,203,0.9),rgba(16,167,203,0.9)),url(../images/doctor-nurse-with-patient.jpg)] bg-cover bg-center bg-no-repeat">
+
+    <div class="text-white px-5 md:px-5 lg:px-20 py-20">
+
+    <!-- Header -->
+    <div class="text-center">
+      <h2 class="text-2xl font-semibold uppercase">Our Patient Say About Us</h2>
+      <img src="../images/heartbeat2.png" alt="heartbeat" class="mx-auto my-3">
+      <p class="text-sm leading-7">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore <br class="hidden md:block">
+        magni quod voluptate, molestiae eos odio illo.
+      </p>
+    </div>
+
+    <!-- Reviews -->
+    <div class="mt-12 flex flex-col md:flex-row items-center justify-between gap-10">
+
+  <!-- Patient 1 -->
+  <div class="flex flex-col items-center text-center w-full md:w-1/2 px-2">
+    <div class="w-25 h-25">
+      <img src="../images/patient-1.jpg" alt="patient" class="w-full h-full object-cover rounded-full">
+    </div>
+    <h4 class="mt-2 font-semibold">Amily Brown</h4>
+    <h5 class="mt-1 mb-2 text-sm">Patient</h5>
+    <p class="text-sm italic leading-7 max-w-80">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla impedit veniam consequatur quo rem sed nostrum tenetur nisi inventore ducimus.
+    </p>
+  </div>
+
+  <!-- Patient 2 -->
+  <div class="flex flex-col items-center text-center w-full md:w-1/2 px-2">
+    <div class="w-25 h-25">
+      <img src="../images/patient-2.jpg" alt="patient" class="w-full h-full object-cover rounded-full">
+    </div>
+    <h4 class="mt-2 font-semibold">George Dabis</h4>
+    <h5 class="mt-1 mb-2 text-sm">Patient</h5>
+    <p class="text-sm italic leading-7 max-w-80">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla impedit veniam consequatur quo rem sed nostrum tenetur nisi inventore ducimus.
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+    <section class="lg:px-20 py-16 md:px-5 px-2">
+
+    <!-- HEADER -->
+    <div class="text-center">
+        <h2 class="text-2xl font-semibold">Our Gallery</h2>
+        <img src="../images/heartbeat.png" class="mx-auto mt-2">
+
+        <p class="text-sm text-gray-600 mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore <br> magni quod voluptate, molestiae eos odio illo.
+        </p>
+    </div>
+
+    <!-- FILTER OPTIONS -->
+    <div class="lg:flex justify-center gap-5 mt-10 hidden md:flex">
+        <div class="px-4 py-2 shadow rounded-full font-bold">All</div>
+        <div class="px-4 py-2 shadow rounded-full font-bold">Cardio</div>
+        <div class="px-4 py-2 shadow rounded-full font-bold">Surgery</div>
+        <div class="px-4 py-2 shadow rounded-full font-bold">Dental</div>
+        <div class="px-4 py-2 shadow rounded-full font-bold">Child Care</div>
+    </div>
+
+    <!-- MOBILE OPTIONS -->
+    <div class="lg:hidden md:hidden flex justify-around flex-wrap gap-3 mt-6">
+        <div class="px-3 py-2 shadow rounded-full text-sm font-bold">All</div>
+        <div class="px-3 py-2 shadow rounded-full text-sm font-bold">Cardio</div>
+        <div class="px-3 py-2 shadow rounded-full text-sm font-bold">Surgery</div>
+        <div class="px-3 py-2 shadow rounded-full text-sm font-bold">Dental</div>
+        <div class="px-3 py-2 shadow rounded-full text-sm font-bold">Child Care</div>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <div class="grid lg:grid-cols-4 gap-5 mt-10 md:grid-cols-3 grid-cols-1">
+
+        <!-- IMAGE CARD -->
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-1.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-2.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-3.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-4.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-5.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-[80px] left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-6.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-7.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative group overflow-hidden lg:w-70 lg:h-50 md:w-57.5 md:h-37.5 w-full h-62.5">
+
+            <img src="../images/gallery-8.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+
+            <!-- OVERLAY -->
+            <div class="absolute inset-0 bg-[#10A7CB]/80 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <!-- ICON -->
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition">
+
+                <div class="w-13.75 h-13.75 bg-white rounded-full flex items-center justify-center">
+                    <img src="../images/focus.png" class="cursor-pointer">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="mt-14 bg-[linear-gradient(rgba(16,167,203,0.9),rgba(16,167,203,0.9)),url(../images/doctor-nurse-with-patient.jpg)] bg-cover bg-center bg-no-repeat">
+
+    <div class="px-5 md:px-10 lg:px-20 py-16 flex flex-col md:flex-row items-center justify-between gap-10">
+
+        <!-- CARD -->
+        <div class="relative w-62.5 h-37.5 border border-white text-white flex flex-col items-center justify-center before:content-[''] before:absolute before:-top-[1px] before:left-1/2 before:-translate-x-1/2 before:w-[80px] before:h-[4px] before:bg-[rgba(16,167,203,0.9)]">
+
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                <img src="../images/counter-1.png">
+            </div>
+
+            <h2 class="text-4xl font-semibold mt-6">3729</h2>
+            <p class="uppercase">Happy Patients</p>
+
+        </div>
+
+        <div class="relative w-62.5 h-37.5 border border-white text-white flex flex-col items-center justify-center before:content-[''] before:absolute before:-top-[1px] before:left-1/2 before:-translate-x-1/2 before:w-[80px] before:h-[4px] before:bg-[rgba(16,167,203,0.9)]">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                <img src="../images/counter-2.png">
+            </div>
+            <h2 class="text-4xl font-semibold mt-6">139</h2>
+            <p class="uppercase">Specialists</p>
+        </div>
+
+        <div class="relative w-62.5 h-37.5 border border-white text-white flex flex-col items-center justify-center before:content-[''] before:absolute before:-top-[1px] before:left-1/2 before:-translate-x-1/2 before:w-[80px] before:h-[4px] before:bg-[rgba(16,167,203,0.9)]">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                <img src="../images/counter-3.png">
+            </div>
+            <h2 class="text-4xl font-semibold mt-6">124</h2>
+            <p class="uppercase">Ward Rooms</p>
+        </div>
+
+        <div class="relative w-62.5 h-37.5 border border-white text-white flex flex-col items-center justify-center before:content-[''] before:absolute before:-top-[1px] before:left-1/2 before:-translate-x-1/2 before:w-[80px] before:h-[4px] before:bg-[rgba(16,167,203,0.9)]">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                <img src="../images/counter-4.png">
+            </div>
+            <h2 class="text-4xl font-semibold mt-6">337</h2>
+            <p class="uppercase">Cabins</p>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="lg:px-20 py-16 md:px-5 px-2">
+
+    <!-- HEADER -->
+    <div class="text-center">
+        <h2 class="text-2xl font-semibold">Latest News & Events</h2>
+        <img src="../images/heartbeat.png" class="mx-auto mt-2">
+
+        <p class="text-sm text-gray-600 mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius inventore <br> magni quod voluptate, molestiae eos odio illo.
+        </p>
+    </div>
+
+    <!-- CARDS -->
+    <div class="lg:flex md:flex justify-between mt-10 grid grid-cols-1">
+
+        <!-- CARD -->
+        <div class="shadow lg:w-92.5 lg:h-125 mt-6 md:w-55 w-full">
+
+            <div class="h-75">
+                <img src="../images/news-1.jpg" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex items-center gap-4 p-4">
+
+                <!-- DATE -->
+                <div class="bg-[#00A3C8] text-white w-20 h-20 md:w-23.25 md:h-15 rounded-full flex items-center justify-center text-center">
+                    <h3 class="md:text-[12px]">25 <br> Mar</h3>
+                </div>
+
+                <!-- TEXT -->
+                <div>
+                    <h3 class="text-sm font-semibold hover:text-[#00a6ff] cursor-pointer transition duration-600">
+                        Sint eius inventore magni quod.
+                    </h3>
+
+                    <div class="flex gap-2 text-xs text-gray-500 mt-2">
+                        <span><i class="fa-regular fa-user"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">John doe</span></span>
+                        <span><i class="fa-regular fa-comment"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">(23)</span></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="px-4 text-gray-500 text-sm">
+                Lorem ipsum dolor sit amet, consectetured adipisicing elit. Cupiditate et distinctioned. Facere aut voluptas optio toi expedita ...
+            </p>
+
+        </div>
+        <div class="shadow lg:w-92.5 lg:h-125 mt-6 md:w-55 w-full">
+
+            <div class="h-75">
+                <img src="../images/news-2.jpg" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex items-center gap-4 p-4">
+
+                <!-- DATE -->
+                <div class="bg-[#00A3C8] text-white w-20 h-20 md:w-23.25 md:h-15 rounded-full flex items-center justify-center text-center">
+                    <h3 class="md:text-[12px]">25 <br> Mar</h3>
+                </div>
+
+                <!-- TEXT -->
+                <div>
+                    <h3 class="text-sm font-semibold hover:text-[#00a6ff] cursor-pointer transition duration-600">
+                        Sint eius inventore magni quod.
+                    </h3>
+
+                    <div class="flex gap-2 text-xs text-gray-500 mt-2">
+                        <span><i class="fa-regular fa-user"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">John doe</span></span>
+                        <span><i class="fa-regular fa-comment"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">(23)</span></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="px-4 text-gray-500 text-sm">
+                Lorem ipsum dolor sit amet, consectetured adipisicing elit. Cupiditate et distinctioned. Facere aut voluptas optio toi expedita ...
+            </p>
+
+        </div>
+        <div class="shadow lg:w-92.5 lg:h-125 mt-6 md:w-55 w-full">
+
+            <div class="h-75">
+                <img src="../images/news-3.jpg" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex items-center gap-4 p-4">
+
+                <!-- DATE -->
+                <div class="bg-[#00A3C8] text-white w-20 h-20 md:w-23.25 md:h-15 rounded-full flex items-center justify-center text-center">
+                    <h3 class="md:text-[12px]">25 <br> Mar</h3>
+                </div>
+
+                <!-- TEXT -->
+                <div>
+                    <h3 class="text-sm font-semibold hover:text-[#00a6ff] cursor-pointer transition duration-600">
+                        Sint eius inventore magni quod.
+                    </h3>
+
+                    <div class="flex gap-2 text-xs text-gray-500 mt-2">
+                        <span><i class="fa-regular fa-user"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">John doe</span></span>
+                        <span><i class="fa-regular fa-comment"></i> <span class="cursor-pointer hover:text-[#00a6ff] transition duration-600">(23)</span></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="px-4 text-gray-500 text-sm">
+                Lorem ipsum dolor sit amet, consectetured adipisicing elit. Cupiditate et distinctioned. Facere aut voluptas optio toi expedita ...
+            </p>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <footer class="bg-[#263238] text-gray-400 lg:px-20 py-16 text-sm md:px-5 px-2">
+
+    <!-- TOP -->
+    <div class="lg:flex md:flex justify-between lg:gap-6 md:gap-6 block">
+
+        <!-- FIND -->
+        <div class="flex-1 space-y-3 mb-6">
+            <h2 class="text-white uppercase">Find Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam nulla quos atque.</p>
+            <p><i class="fa-solid fa-location-dot text-[#00A3C8]"></i> 795 South Park Avenue</p>
+            <p><i class="fa-regular fa-envelope text-[#00A3C8]"></i> enquery@domain.com</p>
+            <p><i class="fa-solid fa-phone text-[#00A3C8]"></i> +1 908 875 7678</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="flex-1 mb-6">
+            <h2 class="text-white uppercase mb-3">Quick Links</h2>
+            <div class="space-y-2">
+                <a href="#" class="block hover:text-[#00A3C8]"><i class="fa-solid fa-angle-right text-[#00A3C8]"></i> General Information</a>
+                <a href="#" class="block hover:text-[#00A3C8]"><i class="fa-solid fa-angle-right text-[#00A3C8]"></i> Blood Bank</a>
+                <a href="#" class="block hover:text-[#00A3C8]"><i class="fa-solid fa-angle-right text-[#00A3C8]"></i> Medical Research</a>
+                <a href="#" class="block hover:text-[#00A3C8]"><i class="fa-solid fa-angle-right text-[#00A3C8]"></i> Emergency Service</a>
+            </div>
+        </div>
+
+        <!-- POSTS -->
+        <div class="flex-1 space-y-3 mb-6">
+            <h2 class="text-white uppercase">Latest Posts</h2>
+            <p><i class="fa-brands fa-twitter"></i> Lorem ipsum dolor sit amet, consec... <a href="#" class="text-[#00A3C8] hover:underline"> https://bh.com/</a></p>
+            <p><i class="fa-brands fa-twitter"></i> Lorem ipsum dolor sit amet, consec... <a href="#" class="text-[#00A3C8] hover:underline"> https://bh.com/</a></p>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="flex-1 space-y-3 mb-6">
+            <h2 class="text-white uppercase">Newsletter</h2>
+            <input class="w-full p-2 bg-transparent border rounded-full" placeholder="Your Name">
+            <input class="w-full p-2 bg-transparent border rounded-full" placeholder="Your Email">
+
+            <button class="w-full bg-[#00A3C8] text-white py-2 rounded-full cursor-pointer hover:bg-[#00a3c8ec]">
+                Register
+            </button>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <hr class="my-10 border-gray-600">
+
+    <div class="text-center space-y-4">
+
+        <div class="flex justify-center gap-5">
+            <a href="../src/mediseba.html" class="hover:text-[#00A3C8] transition duration-600">home</a>
+            <a href="../src/pages.html" class="hover:text-[#00A3C8] transition duration-600">about</a>
+            <a href="../src/services.html" class="hover:text-[#00A3C8] transition duration-600">service</a>
+            <a href="#" class="hover:text-[#00A3C8] transition duration-600">doctor</a>
+            <a href="../src/blog.html" class="hover:text-[#00A3C8] transition duration-600">blog</a>
+            <a href="../src/contact.html" class="hover:text-[#00A3C8] transition duration-600">contact</a>
+        </div>
+
+        <p>
+            Copyright © 2017 | Designed With ❤️ by 
+            <span class="text-[#00A3C8]">SnazzyTheme</span>
+        </p>
+
+        <div class="flex justify-center gap-3">
+            <div class="w-8 h-8 border rounded-full flex items-center justify-center"><i class="fa-brands fa-facebook-f hover:text-[#00A3C8] cursor-pointer transition duration-700"></i></div>
+            <div class="w-8 h-8 border rounded-full flex items-center justify-center"><i class="fa-brands fa-twitter hover:text-[#00A3C8] cursor-pointer transition duration-700"></i></div>
+            <div class="w-8 h-8 border rounded-full flex items-center justify-center"><i class="fa-brands fa-linkedin-in hover:text-[#00A3C8] cursor-pointer transition duration-700"></i></div>
+            <div class="w-8 h-8 border rounded-full flex items-center justify-center"><i class="fa-brands fa-youtube hover:text-[#00A3C8] cursor-pointer transition duration-700"></i></div>
+            <div class="w-8 h-8 border rounded-full flex items-center justify-center"><i class="fa-brands fa-pinterest hover:text-[#00A3C8] cursor-pointer transition duration-700"></i></div>
+        </div>
+
+    </div>
+
+    </footer>
+</body>
+</html>
