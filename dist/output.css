@@ -257,6 +257,9 @@
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
   }
+  .z-10 {
+    z-index: 10;
+  }
   .z-50 {
     z-index: 50;
   }
@@ -265,6 +268,9 @@
   }
   .z-\[9999\] {
     z-index: 9999;
+  }
+  .m-0 {
+    margin: calc(var(--spacing) * 0);
   }
   .mx-1 {
     margin-inline: calc(var(--spacing) * 1);
@@ -410,6 +416,9 @@
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
+  .h-125 {
+    height: calc(var(--spacing) * 125);
+  }
   .h-155 {
     height: calc(var(--spacing) * 155);
   }
@@ -436,9 +445,6 @@
   }
   .h-\[400px\] {
     height: 400px;
-  }
-  .h-\[500px\] {
-    height: 500px;
   }
   .h-\[620px\] {
     height: 620px;
@@ -505,6 +511,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .w-screen {
+    width: 100vw;
   }
   .max-w-7xl {
     max-width: var(--container-7xl);
@@ -735,6 +744,12 @@
   .bg-\[\#263238\] {
     background-color: #263238;
   }
+  .bg-\[url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\/70\] {
+    background-color: url('./images/doctor-nurse-with-patient.jpg')/70;
+  }
+  .bg-\[url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\/\] {
+    background-color: url('./images/doctor-nurse-with-patient.jpg')/;
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -742,6 +757,24 @@
     background-color: color-mix(in srgb, #000 30%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-black) 30%, transparent);
+    }
+  }
+  .bg-black\/50 {
+    background-color: color-mix(in srgb, #000 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+    }
+  }
+  .bg-black\/60 {
+    background-color: color-mix(in srgb, #000 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+    }
+  }
+  .bg-black\/80 {
+    background-color: color-mix(in srgb, #000 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
     }
   }
   .bg-gray-200 {
@@ -753,17 +786,20 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[linear-gradient\(rgba\(0\,0\,0\,0\.3\)\,rgba\(0\,0\,0\,0\.3\)\)\,url\(\'\.\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/doctor-nurse-with-patient.jpg');
+  .bg-\[linear-gradient\(rgba\(0\,0\,0\,0\.3\)\,rgba\(0\,0\,0\,0\.3\)\)\,url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./images/doctor-nurse-with-patient.jpg');
   }
   .bg-\[linear-gradient\(rgba\(16\,167\,203\,0\.9\)\,rgba\(16\,167\,203\,0\.9\)\)\,url\(\.\.\/images\/doctor-nurse-with-patient\.jpg\)\] {
     background-image: linear-gradient(rgba(16,167,203,0.9),rgba(16,167,203,0.9)),url(../images/doctor-nurse-with-patient.jpg);
   }
-  .bg-\[url\(\'\.\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
-    background-image: url('../images/doctor-nurse-with-patient.jpg');
+  .bg-\[linear-gradient\(rgba\(16\,167\,203\,0\.9\)\,rgba\(16\,167\,203\,0\.9\)\)\,url\(\.\/images\/doctor-nurse-with-patient\.jpg\)\] {
+    background-image: linear-gradient(rgba(16,167,203,0.9),rgba(16,167,203,0.9)),url(./images/doctor-nurse-with-patient.jpg);
   }
-  .bg-\[url\(\'\.\.\/images\/shedrack-salami-IX5vs6sjSFo-unsplash\.jpg\'\)\] {
-    background-image: url('../images/shedrack-salami-IX5vs6sjSFo-unsplash.jpg');
+  .bg-\[url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
+    background-image: url('./images/doctor-nurse-with-patient.jpg');
+  }
+  .bg-\[url\(\'\.\/images\/shedrack-salami-IX5vs6sjSFo-unsplash\.jpg\'\)\] {
+    background-image: url('./images/shedrack-salami-IX5vs6sjSFo-unsplash.jpg');
   }
   .bg-cover {
     background-size: cover;
@@ -779,6 +815,9 @@
   }
   .object-center {
     object-position: center;
+  }
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
