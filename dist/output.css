@@ -218,6 +218,9 @@
   .-top-4 {
     top: calc(var(--spacing) * -4);
   }
+  .-top-9 {
+    top: calc(var(--spacing) * -9);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -256,6 +259,24 @@
   }
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
+  }
+  .left-30 {
+    left: calc(var(--spacing) * 30);
+  }
+  .left-35 {
+    left: calc(var(--spacing) * 35);
+  }
+  .left-40 {
+    left: calc(var(--spacing) * 40);
+  }
+  .left-50 {
+    left: calc(var(--spacing) * 50);
+  }
+  .left-90 {
+    left: calc(var(--spacing) * 90);
   }
   .z-10 {
     z-index: 10;
@@ -421,6 +442,9 @@
   }
   .h-155 {
     height: calc(var(--spacing) * 155);
+  }
+  .h-\[2px\] {
+    height: 2px;
   }
   .h-\[45px\] {
     height: 45px;
@@ -738,11 +762,17 @@
   .bg-\[\#00a6ff\] {
     background-color: #00a6ff;
   }
+  .bg-\[\#000\] {
+    background-color: #000;
+  }
   .bg-\[\#10A7CB\]\/80 {
     background-color: color-mix(in oklab, #10A7CB 80%, transparent);
   }
   .bg-\[\#263238\] {
     background-color: #263238;
+  }
+  .bg-\[rgba\(16\,167\,203\,0\.9\)\] {
+    background-color: rgba(16,167,203,0.9);
   }
   .bg-\[url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\/70\] {
     background-color: url('./images/doctor-nurse-with-patient.jpg')/70;
@@ -1137,10 +1167,34 @@
       height: 4px;
     }
   }
+  .before\:w-\[35px\] {
+    &::before {
+      content: var(--tw-content);
+      width: 35px;
+    }
+  }
+  .before\:w-\[40px\] {
+    &::before {
+      content: var(--tw-content);
+      width: 40px;
+    }
+  }
+  .before\:w-\[50px\] {
+    &::before {
+      content: var(--tw-content);
+      width: 50px;
+    }
+  }
   .before\:w-\[80px\] {
     &::before {
       content: var(--tw-content);
       width: 80px;
+    }
+  }
+  .before\:w-\[100px\] {
+    &::before {
+      content: var(--tw-content);
+      width: 100px;
     }
   }
   .before\:-translate-x-1\/2 {
@@ -1160,6 +1214,12 @@
     &::before {
       --tw-content: '';
       content: var(--tw-content);
+    }
+  }
+  .after\:w-9 {
+    &::after {
+      content: var(--tw-content);
+      width: calc(var(--spacing) * 9);
     }
   }
   .hover\:bg-\[\#0EA0C1\] {
