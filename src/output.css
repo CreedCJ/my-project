@@ -251,6 +251,9 @@
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
   }
+  .z-10 {
+    z-index: 10;
+  }
   .z-50 {
     z-index: 50;
   }
@@ -262,9 +265,6 @@
   }
   .mx-1 {
     margin-inline: calc(var(--spacing) * 1);
-  }
-  .mx-2 {
-    margin-inline: calc(var(--spacing) * 2);
   }
   .mx-auto {
     margin-inline: auto;
@@ -386,6 +386,9 @@
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
+  .h-125 {
+    height: calc(var(--spacing) * 125);
+  }
   .h-155 {
     height: calc(var(--spacing) * 155);
   }
@@ -404,17 +407,11 @@
   .h-\[250px\] {
     height: 250px;
   }
-  .h-\[300px\] {
-    height: 300px;
-  }
   .h-\[350px\] {
     height: 350px;
   }
   .h-\[400px\] {
     height: 400px;
-  }
-  .h-\[500px\] {
-    height: 500px;
   }
   .h-\[620px\] {
     height: 620px;
@@ -700,9 +697,6 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[linear-gradient\(rgba\(0\,0\,0\,0\.3\)\,rgba\(0\,0\,0\,0\.3\)\)\,url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./images/doctor-nurse-with-patient.jpg');
-  }
   .bg-\[linear-gradient\(rgba\(16\,167\,203\,0\.9\)\,rgba\(16\,167\,203\,0\.9\)\)\,url\(\.\.\/images\/doctor-nurse-with-patient\.jpg\)\] {
     background-image: linear-gradient(rgba(16,167,203,0.9),rgba(16,167,203,0.9)),url(../images/doctor-nurse-with-patient.jpg);
   }
@@ -711,9 +705,6 @@
   }
   .bg-\[url\(\'\.\/images\/doctor-nurse-with-patient\.jpg\'\)\] {
     background-image: url('./images/doctor-nurse-with-patient.jpg');
-  }
-  .bg-\[url\(\'\.\/images\/shedrack-salami-IX5vs6sjSFo-unsplash\.jpg\'\)\] {
-    background-image: url('./images/shedrack-salami-IX5vs6sjSFo-unsplash.jpg');
   }
   .bg-cover {
     background-size: cover;
@@ -1362,18 +1353,6 @@
   .md\:pt-3 {
     @media (width >= 48rem) {
       padding-top: calc(var(--spacing) * 3);
-    }
-  }
-  .md\:text-3xl {
-    @media (width >= 48rem) {
-      font-size: var(--text-3xl);
-      line-height: var(--tw-leading, var(--text-3xl--line-height));
-    }
-  }
-  .md\:text-base {
-    @media (width >= 48rem) {
-      font-size: var(--text-base);
-      line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
   .md\:text-\[12px\] {
